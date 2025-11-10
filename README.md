@@ -56,17 +56,25 @@ APC_Project/
 ## 🧪 Usage
 
 ### 🔹 Compilation
+**Command:**
+```
+gcc main.c addition.c subtraction.c multiplication.c division.c power.c Common.c -o apc
+```
 
 ### 🔹 Execution
+**Run:**
+```
+./apc <number1> <operator> <number2>
+```
 
-
-### Example **Output**
+### Example Output
 ```
        99999
 x      99999
 ------------
 = 9999800001
 ```
+
 ## 🧮 Supported Operators
 
 | Operator | Operation      | Example              | Result  |
